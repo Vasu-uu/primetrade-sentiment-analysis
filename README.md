@@ -43,9 +43,13 @@ To ensure robust and reliable conclusions, the analysis followed a rigorous work
 ## Project Structure
 
 ```
-PrimeTrade_Assignment_Vasudev/
+primetrade-sentiment-analysis/
+├── data/                                      ← raw datasets (excluded via .gitignore)
 ├── notebook/
 │   └── primetrade_sentiment_analysis.ipynb    ← main notebook (run this)
+├── outputs/
+│   └── executive_summary.pdf                  ← business recommendations
+├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
