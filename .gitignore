@@ -1,0 +1,19 @@
+# Ignore data folder (raw datasets)
+data/
+
+# Python caching & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
